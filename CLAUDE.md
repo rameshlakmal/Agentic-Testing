@@ -6,8 +6,8 @@
 
 | What | Path |
 |------|------|
-| **App source code** (components, routing, `data-test` attrs) | `C:\Users\rames\Desktop\Workspace\saucedemo\sample-app-web\src\` |
-| **Test harness** (Playwright config, page objects, specs) | `C:\Users\rames\Desktop\Workspace\saucedemo\sample-app-web\tests\` |
+| **App source code** (components, routing, `data-test` attrs) | `Your Sourcecode path` |
+| **Test harness** (Playwright config, page objects, specs) | `Your test suite path` |
 
 When running the setup agent Phase 1 (codebase analysis), always scan the **app source** path above — not a relative `../src/` path, which may silently resolve incorrectly depending on the agent's working directory.
 
